@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 200px;
+    font-variant: normal;
+    font-size: large;
+}
+
+h2{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+
+h2{
+    background-color: blueviolet;
+    color: brown;
+    text-align:center;
+}
+
+p{
+    text-align-last:justify;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+h1{
+    text-decoration:underline;
+    text-decoration-color: black;
+    text-decoration-thickness: 25%;
+}

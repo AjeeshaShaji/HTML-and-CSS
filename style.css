@@ -1,0 +1,40 @@
+/* 
+p{
+   color: brown;
+}
+
+#head{
+    color: blueviolet;
+}
+
+.hi{
+    color: aqua;
+} 
+
+*{
+    color: pink;
+} 
+
+h1,div{
+    color: green;
+} 
+
+
+div p{
+    color: brown;
+} 
+
+div > p{
+    color: blue;
+} */
+
+
+                                 /* homework pseudo */
+
+a:visited{
+    color: brown;
+}
+
+a:active{
+    color: blue;
+}
