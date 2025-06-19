@@ -1,0 +1,29 @@
+p{
+    height: 70px;
+    width: 200px;
+    border-style: dashed;
+    border-color: yellowgreen;
+    border-width: 4px;
+    padding: 20px ;
+    box-sizing: border-box;
+}
+
+button{
+    width: 100px;
+    height: 60px;
+    color: black;
+    background-color: bisque;
+    border-radius: 100px;
+    border-color: gold;
+    border-style:double;
+    border-width: 5px;
+}
+
+h1{
+    height: 70px;
+    width: 200px;
+    border-style: dashed;
+    border-color: rgb(205, 50, 140);
+    border-width: 4px;
+  
+}

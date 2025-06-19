@@ -1,0 +1,31 @@
+*{
+ margin:0% ;
+ padding:0% ;
+}
+
+.div1{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+
+}
+
+.img{
+    width:15px;
+
+}
+
+.card{
+    width: 350px;
+    height: 250px;
+    border: 1px solid red;
+    background-color:blueviolet;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
