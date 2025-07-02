@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.main{
+    width: 100%;
+    height: 100%;
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+    background-color: blueviolet;
+    animation-name:animationss ;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 6;
+    animation-direction: normal;
+    animation-delay: 1s;
+}
+
+@keyframes animationss{
+
+    0%  {top:0px;}
+    25% {top:50px;}
+    50% {top:100px;}
+    75% {top:50px;}
+   100% {top:0px;}
+}

@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    background-color: white;
+}
+
+.nav{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:8px;
+    gap: 10px;
+    background-color: black;
+    font-size:20px;
+    
+}
+
+.left{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    padding-left: 20px;
+}
+
+.right{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 25px;
+    
+}
+
+.line{
+    color: rgb(209, 114, 26);
+    height: 45px;
+}
+
+.select{
+    color: white;
+    background-color: black;
+    gap: 10px;
+    font-size: 17px;
+    
+}
+.bodys{
+    background-color: black;
+    padding-left:10px ;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.lefty{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 20px;
+    padding-top: 40px;
+    width: 60%;
+    gap: 10px;
+    
+}
+
+.lefty h3{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.lefty h1{
+    font-size:68px;
+    font-family: sans-serif;
+}
+
+.lefty p{
+    font-size:30px;
+    font-family: sans-serif;
+}
+.lefty button{
+    width: 500px;
+    height: 70px;
+    background-color: rgb(204, 130, 20);
+    font-size: 20px;
+    font-style: bold;
+}
+
+.righty{
+    width:50%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    object-fit: cover;
+    padding-right: 35px;
+}
+
+.righty img{
+    width: 300px;
+    height: 600px;
+    padding: 45px;
+    padding-top: 0;
+}
